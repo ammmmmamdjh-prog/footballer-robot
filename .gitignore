@@ -1,0 +1,27 @@
+# ══ Arduino / PlatformIO build artifacts ══
+build/
+.build/
+*.elf
+*.hex
+*.eep
+*.o
+*.d
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ══ Arduino IDE ══
+arduino_build_*/
+arduino_cache_*/
+
+# ══ Editors & OS ══
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# ══ Media drafts (keep final media, ignore raw) ══
+media/raw/
+*.psd
+*.aep
